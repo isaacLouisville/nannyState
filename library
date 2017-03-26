@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="a page for practicing">
+    <title>practice</title>
+  </head>
+  <body>
+    <h1>page content</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<b>tempor</b> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<img src="images/photo 3.JPG" width="30" height="30 "alt="photo"></p>
+
+    <p>Flow, Metadata,<i><b> Embedded, Interactive,</b></i> Heading, Phrasing, and Sectioning.</p>
+  </body>
+</html>
