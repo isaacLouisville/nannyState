@@ -1,0 +1,122 @@
+<!-- CodeLouisville front-end project 3-20-17 -->
+<!DOCTYPE html>
+<html>
+
+<!--==========HEAD==========-->
+
+  <head>
+    <meta charset="utf-8">
+      <title>about page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+      <link href="css/bootstrap-theme.min.css"  rel="stylesheet" media="screen">
+      <link href="css/my-styles.css" rel="stylesheet" media="screen">
+      <link href="/home/isaac/Desktop/codelvl/natdogBS/about.html">
+      <link rel="stylesheet" href="css/form.css">
+  </head> <!--end head-->
+
+  <!--==========BODY==========-->
+
+    <body>
+
+    <!--==========NAVBAR==========-->
+      <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+
+  <!--==========BUTTON==========-->
+
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand text-muted" href="#">LRE</a>
+          <div class="collapse navbar-collapse">
+
+  <!--==========LIST==========-->
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="/home/isaac/Desktop/codelvl/natdogBS/index.html">Home</a></li>
+                <li><a href="/home/isaac/Desktop/codelvl/natdogBS/about.html">About L.R.E</a></li>
+                <li class="dropdown">
+                  <a href="/about.html" data-toggle="dropdown" data-target="#">SavageNatDog<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/home/isaac/Desktop/codelvl/natdogBS/about.html">About LRE</a></li>
+                    <li><a href="/home/isaac/Desktop/codelvl/natdogBS/library">Video Library</a></li>
+                    <li><a href="buyNow">Buy Now</a></li>
+                    <!--  <li class="divider"></li>
+                    <li><a href="#"></a>Plans &amp; Pricing</li> -->
+                  </ul>
+                </li>
+            </ul>
+          </div> <!--end .navbar-collapse-->
+        </div> <!--end .container-->
+      </div> <!--end .navbar-inverse-->
+    <div class="container-fluid">
+      <div class="jumbotron">
+        <h1>Your gonna love it!</h1>
+        <p class="lead">Every purchase is one less Saturday slingin GirlScout Cookies</p>
+      </div>
+      <div class="row">
+      </div>
+      <form action="index.html" method="post">
+        <h2>Ready to buy</h2>
+
+<!--==========FORM==========-->
+        <div class="row">
+          <div class="col-md-6 pull-left">
+        <fieldset>
+         <legend><span class="number">1</span> Your Information</legend>
+          <label for="name">Name:</label>
+          <input type="text" name="user_name" id="name">
+          <label for="mail">Email:</label>
+          <input type="email" name="user_email" id="mail">
+          <label for="password">Payment:</label>
+          <input type="password" name="user_password" id="password">
+        </fieldset>
+        <label>Credit Card</label>
+        <input type="radio" value="visa" id="visa" name="creditCard"><label for="visa" class="light">Visa</label><br>
+        <input type="radio" value="MasterCard" id="MasterCard" name="creditCard"><label for="masterCard" class="light">Master Card</label>
+        <fieldset>
+         <legend><span class="number">2</span> Your Comments</legend>
+          <label for="bio">Comments:</label>
+          <textarea name="info" id="bio" ></textarea>
+        </fieldset>
+        <label for="job">Job Role:</label>
+          <select name="user_job" id="job">
+            <optgroup label="colors">
+              <option value="red">red</option>
+              <option value="green">green</option>
+              <option value="blue">blue</option>
+              <option value="yellow">yellow</option>
+              <option value="orange">orange</option>
+            </optgroup>
+            <optgroup label="shapes">
+              <option value="circle">circle</option>
+              <option value="square">square</option>
+              <option value="triangle">triangle</option>
+            </optgroup>
+          </select>
+        <a id="submitButton" class="btn btn-success btn-lg" href="#">Submit</a>
+
+      </form>
+      </div>
+      <div class="col-md-6 pull-right">
+      <div class="punked">
+        <p><img src="/home/isaac/Desktop/codelvl/natdogBS/images/natDog.JPG" alt="savageNatDog"></p>
+      </div>
+      </div>
+      </div><!--end of row-->
+<!--==========FOOTER==========-->
+      <hr>
+      <footer class="navbar-default navbar-fixed-bottom">
+      <div class="container">
+        <p>&copy; 2017 Lil Reader Express - A SavageNatDog Company, biatch</p>
+      </div>
+      </footer>
+    </div> <!--end .container-->
+      <script src="http://code.jquery.com/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="/home/isaac/Desktop/codelvl/natdogBS/js/natdog.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>

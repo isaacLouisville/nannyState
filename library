@@ -1,14 +1,77 @@
-<!doctype html>
-<html lang="en">
+<!-- CodeLouisville front-end project 3-20-17 -->
+<!DOCTYPE html>
+<html>
+
+<!--==========HEAD==========-->
+
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="a page for practicing">
-    <title>practice</title>
-  </head>
-  <body>
-    <h1>page content</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<b>tempor</b> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<img src="images/photo 3.JPG" width="30" height="30 "alt="photo"></p>
+      <title>about page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+      <link href="css/bootstrap-theme.min.css"  rel="stylesheet" media="screen">
+      <link href="css/my-styles.css" rel="stylesheet" media="screen">
+  </head> <!--end head-->
 
-    <p>Flow, Metadata,<i><b> Embedded, Interactive,</b></i> Heading, Phrasing, and Sectioning.</p>
+  <!--==========BODY==========-->
+
+    <body>
+
+    <!--==========NAVBAR==========-->
+      <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+
+  <!--==========BUTTON==========-->
+
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand text-muted" href="#">LRE</a>
+          <div class="collapse navbar-collapse">
+
+  <!--==========LIST==========-->
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="/home/isaac/Desktop/codelvl/natdogBS/index.html">Home</a></li>
+                <li><a href="/home/isaac/Desktop/codelvl/natdogBS/about.html">About L.R.E</a></li>
+                <li class="dropdown">
+                  <a href="/about.html" data-toggle="dropdown" data-target="#">SavageNatDog<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/home/isaac/Desktop/codelvl/natdogBS/about.html">About LRE</a></li>
+                    <li><a href="/home/isaac/Desktop/codelvl/natdogBS/library">Video Library</a></li>
+                    <li><a href="buyNow">Buy Now</a></li>
+                    <!--  <li class="divider"></li>
+                    <li><a href="#"></a>Plans &amp; Pricing</li> -->
+                  </ul>
+                </li>
+            </ul>
+          </div> <!--end .navbar-collapse-->
+        </div> <!--end .container-->
+      </div> <!--end .navbar-inverse-->
+    <div class="container-fluid">
+      <div class="jumbotron">
+        <h1>SavageNatDog in the house!</h1>
+        <p class="lead">Elementary School is Ol'Skool...</p>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+         <div class="embed-responsive embed-responsive-4by3">
+          <video class="embed-responsive-item" src="/home/isaac/Desktop/codelvl/natdogBS/images/natdog.mp4" autoplay controls muted ></video>
+         </div>
+        </div>
+      </div>
+
+<!--==========FOOTER==========-->
+      <hr>
+      <footer class="navbar-default navbar-fixed-bottom">
+      <div class="container">
+        <p>&copy; 2017 Lil Reader Express - A SavageNatDog Company, biatch</p>
+      </div>
+      </footer>
+    </div> <!--end .container-->
+      <script src="http://code.jquery.com/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
