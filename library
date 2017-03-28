@@ -34,13 +34,13 @@
   <!--==========LIST==========-->
 
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="/home/isaac/Desktop/codelvl/natdogBS/index.html">Home</a></li>
-                <li><a href="/home/isaac/Desktop/codelvl/natdogBS/about.html">About L.R.E</a></li>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About L.R.E</a></li>
                 <li class="dropdown">
-                  <a href="/about.html" data-toggle="dropdown" data-target="#">SavageNatDog<b class="caret"></b></a>
+                  <a href="about.html" data-toggle="dropdown" data-target="#">SavageNatDog<b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                    <li><a href="/home/isaac/Desktop/codelvl/natdogBS/about.html">About LRE</a></li>
-                    <li><a href="/home/isaac/Desktop/codelvl/natdogBS/library">Video Library</a></li>
+                    <li><a href="about.html">About LRE</a></li>
+                    <li><a href="library">Video Library</a></li>
                     <li><a href="buyNow">Buy Now</a></li>
                     <!--  <li class="divider"></li>
                     <li><a href="#"></a>Plans &amp; Pricing</li> -->
@@ -58,7 +58,7 @@
       <div class="row">
         <div class="col-md-6">
          <div class="embed-responsive embed-responsive-4by3">
-          <video class="embed-responsive-item" src="/home/isaac/Desktop/codelvl/natdogBS/images/natdog.mp4" autoplay controls muted ></video>
+          <video class="embed-responsive-item" src="images/natdog.mp4" autoplay controls muted ></video>
          </div>
         </div>
       </div>

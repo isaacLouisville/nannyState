@@ -1,6 +1,7 @@
-<!--Jquery function to show image after submit button click-->
+//<!--Jquery function to show image after submit button click-->
 
-$(".punked").hide().show();
-$("#submitButton").click(function(){
+$(".punked").hide();
+$("#submitButton").click(function( event ){
+  event.preventDefault();
   $(".punked").show("slow");
 });
