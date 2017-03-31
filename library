@@ -56,9 +56,9 @@
         <p class="lead">Elementary School is Ol'Skool...</p>
       </div>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 col-lg-12">
          <div class="embed-responsive embed-responsive-4by3">
-          <video class="embed-responsive-item" src="images/natdog.mp4" autoplay controls muted ></video>
+          <video class="embed-responsive-item" src="images/natdog.mp4" autoplay controls></video>
          </div>
         </div>
       </div>
